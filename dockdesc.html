@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>
+        Docker Description 
+    </title>
+    <link rel="stylesheet" href="docker.css">
+  
+    <style>
+
+       h1{
+           color: red;
+       }
+        table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        border: 2px solid #1c87c9;
+        border: 2px solid #1c87c9;
+        border-radius: 5px;
+  
+}
+
+body{ 
+  
+  background-image: url("https://raw.githubusercontent.com/satwikagunishetty/docker_website/main/docker2.jpg");
+  background-color:#00BFFF;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  background-color:mintcream
+}
+
+
+    </style>
+
+</head>
+  
+<body>
+    <h1 >Description for Docker</h1>
+    
+  
+    <table>
+    
+        <tr>
+        <td>To start Docker Services</td>
+        <td> systemctl start docker</td>
+        
+        </tr>
+  
+        <tr>
+            <td>  To make docker services permanent </td>
+                <td> systemctl enable docker </td>
+        </tr>
+  
+      
+        
+        <tr>
+            <td>  To show avaliable docker images </td>
+                <td> docker images </td>
+        </tr>
+        
+        <tr>
+            <td> To check the running docker containers </td>
+                <td> docker ps </td>
+        </tr>
+      
+        
+        <tr>
+            <td> To pull the desired docker image </td>
+                <td> docker pull {imagename:version} </td>
+        </tr>
+      
+        <tr>
+            <td>To launch docker container </td>
+                <td> docker run dit --name {osname} {docker img name} </td>
+        </tr>
+        
+       
+        <tr>
+            <td> To Stop docker container </td>
+                <td>docker stop {container-name} </td>
+        </tr>
+        
+        <tr>
+            <td> To start the stopped docker container </td>
+                <td>  docker start {container-name} </td>
+        </tr>
+       
+        
+        <tr>
+            <td>  To attach volume to docker container </td>
+                <td>  docker run -dit --name {os-name} -v {folder-of-baseos}:{folder-of-docker-container} centos </td>
+        </tr>
+        
+        <tr>
+            <td>  To execute a command inside a docker container </td>
+                <td> docker exec {container-name} {command name} </td>
+        </tr>
+      
+    </table>
+</body>
+  
+</html>
