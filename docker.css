@@ -1,0 +1,69 @@
+h1{
+    
+    color: white;
+    padding-left:15px ;
+}
+
+
+h2{
+    color:yellow;
+    text-shadow: #00BFFF;
+    padding-left:15px ;
+}
+
+body{ 
+  
+    background-image: url("https://raw.githubusercontent.com/satwikagunishetty/docker_website/main/dockerpic.png");
+    background-color:#00BFFF;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+b{
+    color: #CD1849;
+    padding-left:15px ;
+    font-size: large;
+    font-weight: bold;
+}
+
+.button{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 50px 200px;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button:hover {background-color: grey}
+
+       
+.center{
+	margin: 30px 185px;
+	width:80%;
+	border: 2px dashed #000000;
+	padding: 10px;
+	}
+.button:hover {background-color:#00BFFF }
+
+.button:active {
+      background-color:#00BFFF;
+      box-shadow: 0 2.5px #666;
+      transform: translateY(4px);
+    }
+  
+#in1{
+    background-color:#11ccec;
+    width: 35%;
+    height: 5%;
+    box-shadow: #cccccc;
+    text-decoration: #CD1849;
+    font-size: larger;
+
+}
